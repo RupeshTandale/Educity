@@ -1,0 +1,46 @@
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../assets/college-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    text-align: center;
+    width: 800px;
+}
+
+.hero-text h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.hero-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+.hero-btn{
+    color: #212121;
+    padding: 12px 25px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hero-btn img{
+    width: 20px;
+    margin-left: 10px;
+}
