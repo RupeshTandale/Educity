@@ -25,13 +25,20 @@ a{
 }
 
 .btn{
-    padding: 8px 12px;
     color: #212121;
-    background-color: #fff;
+    padding: 12px 25px;
     border: none;
     outline: none;
     border-radius: 30px;
     font-size: 16px;
-    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+}
+
+.btn.dark-btn{
+    background-color: #212AE0;
+    color: white;
 }

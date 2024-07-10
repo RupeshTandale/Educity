@@ -26,21 +26,8 @@
     line-height: 1.4;
 }
 
-.hero-btn{
-    color: #212121;
-    padding: 12px 25px;
-    border: none;
-    outline: none;
-    border-radius: 30px;
-    font-size: 16px;
-    font-weight: 400;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
 
-.hero-btn img{
+.btn img{
     width: 20px;
     margin-left: 10px;
 }
