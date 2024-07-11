@@ -31,3 +31,24 @@
     width: 20px;
     margin-left: 10px;
 }
+
+/*------------------ Media Query ------------------------------*/
+
+@media (max-width:866px){
+    .hero-text h1{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:600px){
+    .hero-text h1{
+        font-size: 30px;
+        width: 400px;
+        margin: auto;
+    }
+
+    .hero-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}

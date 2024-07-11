@@ -57,3 +57,16 @@
     display: block;
     margin: 20px 0;
 }
+
+
+@media(max-width:650px){
+    .contact{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-info{
+        flex-basis: 100%;
+        margin: 25px;
+    }
+}

@@ -33,4 +33,52 @@ nav ul li{
     transition: 0.5s;
 }
 
+.menu-icon{
+    display: none;
+}
+
+
+/*---------------- Media Query ------------------*/
+
+@media (max-width: 1000px){
+    .logo{
+        width:140px
+    }
+
+    nav ul li{
+        margin: 10px 15px;
+    }
+}
+
+@media (max-width:866px){
+    nav{
+        padding: 15px 0;
+    }
+
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background:#212EA0;
+        padding-top: 70px;
+        z-index: -1;
+        width: 200px;
+        transition: 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+    }
+
+    .menu-icon{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .mobile-view-menu{
+        right: -200px;
+    }
+}
 

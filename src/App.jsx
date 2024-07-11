@@ -2,6 +2,7 @@ import "./App.css";
 import About from "./Component/About/About";
 import Campus from "./Component/Campus/Campus";
 import Contact from "./Component/Contact/Contact";
+import Footer from "./Component/Footer/Footer";
 import Hero from "./Component/Hero/Hero";
 import Navbar from "./Component/Navbar/Navbar";
 import Programs from "./Component/Programs/Programs";
@@ -23,6 +24,7 @@ function App() {
         <Testimonial/>
         <Title subtitle='Contact us' title='Get in Touch'/>
         <Contact/>
+        <Footer/>
       </div>
     </div>
   );
